@@ -20,7 +20,7 @@ int fibonacci(int n){
 int main()
 {
     int n;
-    cout <<"Enter the number of terms in the febonacci series";
+    cout <<"Enter the number of terms in the febonacci series : ";
     cin >> n;
     cout <<"Fibonacci series : ";
     fibonacci(n);
