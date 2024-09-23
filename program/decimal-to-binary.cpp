@@ -2,11 +2,9 @@
 
 using namespace std;
 
-int main()
-{
 
-    int n;
-    cin >> n;
+string decimalToBinary(int n)
+{
     string ans;
     while (n > 0)
     {
@@ -14,8 +12,15 @@ int main()
         n /= 2;
     }
     reverse(ans.begin(), ans.end());
+    return ans;
+}
 
-    cout<< ans;
+int main()
+{
+
+    int n;
+    cin >> n;
+    cout << decimalToBinary(n) << endl;
 
     return 0;
 }
