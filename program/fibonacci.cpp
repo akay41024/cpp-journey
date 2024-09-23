@@ -5,7 +5,7 @@ using namespace std;
 int fibonacci(int n){
     int a = 0, b = 1, c;
     if(n == 0){
-        cout << a << " ";
+        cout << a << endl;
         return a;
     }
     cout << a << " " << b << " ";
@@ -17,6 +17,8 @@ int fibonacci(int n){
     }
     return c;
 }
+
+
 int main()
 {
     int n;
